@@ -1,11 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: white;
+  background-color: black;
+  height: 100vh;
+}
+
+h1 {
+  padding: 20px;
 }
 
 #container {
-  height: 200px;
+  height: 90vh;
+  margin: 10px 0;
+  width: 100vw;
+  padding: 0 20px;
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
@@ -13,6 +30,14 @@ body {
 
 .bar {
   width: 10px;
-  background-color: black;
-  margin: 1px;
+  background-color: white;
+  margin: 0.5px;
+}
+
+#param-bar {
+  display: flex;
+}
+
+#param-bar > div {
+  margin-left: 50px;
 }
